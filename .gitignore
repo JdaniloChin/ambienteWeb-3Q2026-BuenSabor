@@ -1,0 +1,34 @@
+
+# ==================================
+# VARIABLES DE ENTORNO
+# ==================================
+.env
+.env.*
+!.env.example
+
+# ==================================
+# DEPENDENCIAS PHP
+# ==================================
+/vendor/
+
+# ==================================
+# CONFIGURACIÓN DE EDITORES
+# ==================================
+.vscode/
+.idea/
+*.code-workspace
+
+# ==================================
+# ARCHIVOS TEMPORALES Y LOGS
+# ==================================
+*.log
+*.tmp
+*.bak
+*.swp
+
+# ==================================
+# ARCHIVOS DEL SISTEMA OPERATIVO
+# ==================================
+.DS_Store
+Thumbs.db
+desktop.ini

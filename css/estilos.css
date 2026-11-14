@@ -1,0 +1,240 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-color: #f4f4f4;
+    
+
+}
+
+header {
+    background-color: #8b0000;
+    padding: 30px;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+header p{
+    color: white;
+}
+
+nav{
+    background-color: #333;
+    padding: 15px;
+    top: 170px;
+    width: 100%;
+    z-index: 1000;
+
+}
+
+nav a{
+    color: white !important;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav a:hover{
+    background-color: #8b0000;
+    border-radius: 5px;
+}
+
+.nav-tabs .nav-link.active{
+    background-color: #8b0000;
+    border-radius: 5px;
+}
+
+main{
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+
+section{
+    scroll-margin-top: 210px;
+}
+
+/* Selector general * es todo */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+/* selector por etiqueta*/
+p {
+    color:gray;
+}
+
+h2 {
+    color: darkblue
+}
+/* Selector por clase */
+.destacado{
+    color: red;
+    font-weight: bold;
+}
+/* selector por id */
+#titulo{
+    color:white;
+    text-align: center;
+}
+
+/* selectores por atributo*/
+input[type]{
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+textarea{
+    width: 100%;
+    min-height: 120px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    resize: vertical;
+}
+
+input:focus,
+textarea:focus{
+    outline: none;
+    border-color: #8b0000;
+}
+
+/* input[type="email"]{
+    background-color: lightyellow;
+}
+
+input[type="date"]{
+    background-color: lightblue;
+}*/
+
+[id^="promo"]{
+    padding: 15px;
+    border-left: 5px solid #8b0000;
+    border-radius: 8px;
+}
+
+#promociones{
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+#menu{
+    margin-bottom: 30px;
+}
+
+#contacto{
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+form{
+    max-width: 600px;
+    margin: auto;
+}
+
+form button{
+    width: 100%;
+    margin-top: 20px;
+}
+
+form p {
+    color: black;
+    font-weight: bold;
+}
+
+label{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contenedor-producto{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.producto {
+    width: 300px;
+    background-color: white;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.producto p {
+    color: #555;
+}
+
+.producto h3{
+    color: #8b0000;
+    font-weight: bold;
+}
+
+.producto button{
+    display: block;
+    margin: auto;
+}
+
+.btn.btn-primary{
+    background-color: #8b0000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #600000;
+}
+
+#inicio{
+    background-color: white;
+    padding: 40px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#inicio h2{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+#inicio p{
+    font-size: 18px;
+}
+
+#inicio .destacado{
+    color: #8b0000;
+    font-size: 20px;
+}
+
+footer{
+    background-color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p{
+    color: white;
+    margin: 5px;
+}
+
+.input-group button{
+    width: auto;
+    margin-top: 0;
+}
